@@ -8,7 +8,7 @@ public class Arrays {
         marks[2]=88;
         marks[3]=79;
         for(int i=0;i<4;i++){
-            System.out.println(marks[i]);
+            System.out.println(marks[1]);
         }
     }
 }
