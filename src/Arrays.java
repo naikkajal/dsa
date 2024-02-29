@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Arrays {
     public static void main(String[] args) {
@@ -7,7 +7,14 @@ public class Arrays {
         int numbers[]=new int[size];
 
         for(int i=0;i<size;i++){
-            System.out.println(numbers[i]);
+            numbers[i]=sc.nextInt();
         }
+        int x=sc.nextInt();
+        for(int i=0;i<numbers.length;i++){
+            if( numbers[i]==x){
+                System.out.println("x is found at index"+i);
+            }
+        }
+
     }
 }
